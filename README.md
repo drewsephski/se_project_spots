@@ -1,21 +1,19 @@
-# Project 3: Spots
+# Mesto: Photo Sharing Platform
 
-### Overview  
+Mesto is a responsive web application designed for sharing photos and interacting with content. It provides users with a clean and intuitive interface to view user profiles, browse a collection of images, and engage with various elements on the page. The application is built with a focus on adaptability, ensuring a seamless experience across different devices and screen sizes.
 
-* Intro  
-* Figma  
-* Images  
-  
-**Intro**
-  
-This project is made so all the elements are displayed correctly on popular screen sizes. We recommend investing more time in completing this project, since it's more difficult than previous ones.  
-  
-**Figma**  
-  
-* [Link to the project on Figma](https://www.figma.com/file/BBNm2bC3lj8QQMHlnqRsga/Sprint-3-Project-%E2%80%94-Spots?type=design&node-id=2%3A60&mode=design&t=afgNFybdorZO6cQo-1)
-  
-**Images**  
-  
-The way you'll do this at work is by exporting images directly from Figma — we recommend doing that to practice more. Don't forget to optimize them [here](https://tinypng.com/), so your project loads faster. 
-  
-Good luck and have fun!
+## Key Technologies and Techniques
+
+*   HTML5: Used for structuring the web content, providing a semantic and accessible foundation for the application.
+*   CSS3: Employed for comprehensive styling, including layout, typography, colors, and responsive adjustments, with a strong emphasis on modern web design principles.
+*   BEM (Block, Element, Modifier): The project's CSS is organized using the BEM methodology, promoting modularity, reusability, and maintainability of styles. This is reflected in the `blocks/` directory structure (e.g., [`card.css`](blocks/card.css), [`profile.css`](blocks/profile.css)).
+*   Responsive Design: The application is designed to be fully responsive, adapting its layout and elements to provide an optimal viewing experience on a wide range of devices, from desktops to mobile phones.
+*   Fonts: Custom fonts are integrated via [`vendor/fonts.css`](vendor/fonts.css) to enhance the visual appeal and typography of the platform.
+*   Normalize.css: Included from [`vendor/normalize.css`](vendor/normalize.css) to ensure consistent rendering of HTML elements across different browsers, resetting default styles to a common baseline.
+
+## Screenshots
+
+*   ![Overall UI appearance](images/screenshots/overall-ui.png)
+*   ![Profile section layout](images/screenshots/profile-section.png)
+*   ![Image card display](images/screenshots/image-card.png)
+*   ![Responsive view on a smaller screen](images/screenshots/responsive-view.png)
