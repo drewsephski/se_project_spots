@@ -16,143 +16,139 @@
   <body>
     <div class="page">
       <header class="header">
-        <h1 class="header__title">SPOTS</h1>
+        <img class="header__logo" src="images/logo.svg" alt="Spots logo" />
       </header>
       <main class="content">
         <section class="profile">
           <img
             class="profile__image"
             src="images/avatar.jpg"
-            alt="Profile picture of Bessie Coleman"
+            alt="Bessie Coleman"
           />
-          <div class="profile__info">
-            <div class="profile__name-container">
-              <div class="profile__name-and-edit">
-                <div class="profile__text-container">
-                  <h2 class="profile__name">Bessie Coleman</h2>
-                  <p class="profile__subtitle">Civil Aviator</p>
-                </div>
-                <button class="profile__edit-button" type="button" aria-label="Edit profile">
+          <div class="profile__column">
+            <div class="profile__info">
+              <h1 class="profile__name">Bessie Coleman</h1>
+              <h2 class="profile__subtitle">Civil Aviator</h2>
+            </div>
+            <button class="profile__edit-button">
+              <img
+                class="profile__edit-icon"
+                src="images/Edit Icon.png"
+                alt="Edit"
+              /> <span class="profile__edit-text">Edit Profile</span>
+            </button>
+          </div>
+          <button class="profile__new-post-button">+ New Post</button>
+        </section>
+        <section class="cards">
+          <ul class="cards__list">
+            <li class="card">
+              <img
+                class="card__image"
+                src="images/1-photo-by-moritz-feldmann-from-pexels.jpg"
+                alt="Beautiful mountain landscape with snow-capped peaks"
+              />
+              <div class="card__content">
+                <h3 class="card__title">Val Thorens</h3>
+                <button class="card__like-button" type="button" aria-label="Like">
                   <img
-                    class="profile__edit-icon"
-                    src="images/Edit Icon.png"
-                    alt="Edit"
+                    class="card__like-icon"
+                    src="images/Like Icon.png"
+                    alt="Like"
                   />
                 </button>
               </div>
-              <button class="profile__new-post-button" type="button">
-                + New Post
-              </button>
-            </div>
-          </div>
-        </section>
-        <section class="cards">
-          <article class="card">
-            <img
-              class="card__image"
-              src="images/1-photo-by-moritz-feldmann-from-pexels.jpg"
-              alt="Beautiful mountain landscape with snow-capped peaks"
-            />
-            <div class="card__content">
-              <h3 class="card__title">Val Thorens</h3>
-              <button class="card__like-button" type="button" aria-label="Like">
-                <img
-                  class="card__like-icon"
-                  src="images/Like Icon.png"
-                  alt="Like"
-                />
-              </button>
-            </div>
-          </article>
-          <article class="card">
-            <img
-              class="card__image"
-              src="images/2-photo-by-ceiline-from-pexels.jpg"
-              alt="Serene lake surrounded by forest"
-            />
-            <div class="card__content">
-              <h3 class="card__title">Restaurant terrace</h3>
-              <button class="card__like-button" type="button" aria-label="Like">
-                <img
-                  class="card__like-icon"
-                  src="images/Like Icon.png"
-                  alt="Like"
-                />
-              </button>
-            </div>
-          </article>
-          <article class="card">
-            <img
-              class="card__image"
-              src="images/3-photo-by-tubanur-dogan-from-pexels.jpg"
-              alt="Dramatic coastal cliffs overlooking the ocean"
-            />
-            <div class="card__content">
-              <h3 class="card__title">An outdoor cafe</h3>
-              <button class="card__like-button" type="button" aria-label="Like">
-                <img
-                  class="card__like-icon"
-                  src="images/Like Icon.png"
-                  alt="Like"
-                />
-              </button>
-            </div>
-          </article>
-          <article class="card">
-            <img
-              class="card__image"
-              src="images/4-photo-by-maurice-laschet-from-pexels.jpg"
-              alt="Desert landscape with rolling sand dunes"
-            />
-            <div class="card__content">
-              <h3 class="card__title">A very long bridge, over the forest...</h3>
-              <button class="card__like-button" type="button" aria-label="Like">
-                <img
-                  class="card__like-icon"
-                  src="images/Like Icon.png"
-                  alt="Like"
-                />
-              </button>
-            </div>
-          </article>
-          <article class="card">
-            <img
-              class="card__image"
-              src="images/5-photo-by-van-anh-nguyen-from-pexels.jpg"
-              alt="Tropical beach with crystal clear water"
-            />
-            <div class="card__content">
-              <h3 class="card__title">Tunnel with morning light</h3>
-              <button class="card__like-button" type="button" aria-label="Like">
-                <img
-                  class="card__like-icon"
-                  src="images/Like Icon.png"
-                  alt="Like"
-                />
-              </button>
-            </div>
-          </article>
-          <article class="card">
-            <img
-              class="card__image"
-              src="images/6-photo-by-moritz-feldmann-from-pexels.jpg"
-              alt="Ancient forest with towering trees"
-            />
-            <div class="card__content">
-              <h3 class="card__title">Mountain house</h3>
-              <button class="card__like-button" type="button" aria-label="Like">
-                <img
-                  class="card__like-icon"
-                  src="images/Like Icon.png"
-                  alt="Like"
-                />
-              </button>
-            </div>
-          </article>
+            </li>
+            <li class="card">
+              <img
+                class="card__image"
+                src="images/2-photo-by-ceiline-from-pexels.jpg"
+                alt="Serene lake surrounded by forest"
+              />
+              <div class="card__content">
+                <h3 class="card__title">Restaurant terrace</h3>
+                <button class="card__like-button" type="button" aria-label="Like">
+                  <img
+                    class="card__like-icon"
+                    src="images/Like Icon.png"
+                    alt="Like"
+                  />
+                </button>
+              </div>
+            </li>
+            <li class="card">
+              <img
+                class="card__image"
+                src="images/3-photo-by-tubanur-dogan-from-pexels.jpg"
+                alt="Dramatic coastal cliffs overlooking the ocean"
+              />
+              <div class="card__content">
+                <h3 class="card__title">An outdoor cafe</h3>
+                <button class="card__like-button" type="button" aria-label="Like">
+                  <img
+                    class="card__like-icon"
+                    src="images/Like Icon.png"
+                    alt="Like"
+                  />
+                </button>
+              </div>
+            </li>
+            <li class="card">
+              <img
+                class="card__image"
+                src="images/4-photo-by-maurice-laschet-from-pexels.jpg"
+                alt="Desert landscape with rolling sand dunes"
+              />
+              <div class="card__content">
+                <h3 class="card__title">A very long bridge, over the forest...</h3>
+                <button class="card__like-button" type="button" aria-label="Like">
+                  <img
+                    class="card__like-icon"
+                    src="images/Like Icon.png"
+                    alt="Like"
+                  />
+                </button>
+              </div>
+            </li>
+            <li class="card">
+              <img
+                class="card__image"
+                src="images/5-photo-by-van-anh-nguyen-from-pexels.jpg"
+                alt="Tropical beach with crystal clear water"
+              />
+              <div class="card__content">
+                <h3 class="card__title">Tunnel with morning light</h3>
+                <button class="card__like-button" type="button" aria-label="Like">
+                  <img
+                    class="card__like-icon"
+                    src="images/Like Icon.png"
+                    alt="Like"
+                  />
+                </button>
+              </div>
+            </li>
+            <li class="card">
+              <img
+                class="card__image"
+                src="images/6-photo-by-moritz-feldmann-from-pexels.jpg"
+                alt="Ancient forest with towering trees"
+              />
+              <div class="card__content">
+                <h3 class="card__title">Mountain house</h3>
+                <button class="card__like-button" type="button" aria-label="Like">
+                  <img
+                    class="card__like-icon"
+                    src="images/Like Icon.png"
+                    alt="Like"
+                  />
+                </button>
+              </div>
+            </li>
+          </ul>
         </section>
       </main>
       <footer class="footer">
-        <p class="footer__copyright">2023 © Spots</p>
+        <p class="footer__copyright">&copy; 2025 Spots</p>
       </footer>
     </div>
     <script src="scripts/index.js"></script>
