@@ -1,12 +1,24 @@
-# Mesto: Photo Sharing Platform
+# Spots
 
-A responsive web application designed for sharing photos and interacting with content. It provides users with a clean and intuitive interface to view user profiles, browse a collection of images, and engage with various elements on the page. The application is built with a focus on adaptability, ensuring a seamless experience across different devices and screen sizes.
+A social media-like platform for sharing photos and discovering new "spots" (locations). This project focuses on responsive web design and modern CSS practices.
 
-## Key Technologies and Techniques
+## Technologies Used
 
-*   HTML5: Used for structuring the web content, providing a semantic and accessible foundation for the application.
-*   CSS3: Employed for comprehensive styling, including layout, typography, colors, and responsive adjustments, with a strong emphasis on modern web design principles.
-*   BEM (Block, Element, Modifier): The project's CSS is organized using the BEM methodology, promoting modularity, reusability, and maintainability of styles. This is reflected in the `blocks/` directory structure (e.g., [`card.css`](blocks/card.css), [`profile.css`](blocks/profile.css)).
-*   Responsive Design: The application is designed to be fully responsive, adapting its layout and elements to provide an optimal viewing experience on a wide range of devices, from desktops to mobile phones.
-*   Fonts: Custom fonts are integrated via [`vendor/fonts.css`](vendor/fonts.css) to enhance the visual appeal and typography of the platform.
-*   Normalize.css: Included from [`vendor/normalize.css`](vendor/normalize.css) to ensure consistent rendering of HTML elements across different browsers, resetting default styles to a common baseline.
+*   HTML5
+*   CSS3 (Flexbox, Grid)
+*   JavaScript (for potential future interactivity, currently minimal)
+
+## Features
+
+*   User profile section
+*   Display of photo cards with location and like functionality
+*   Responsive layout for various screen sizes
+*   Horizontal border line separating content from footer (recently added)
+
+## Deployment
+
+[Deployed on GitHub Pages](https://drewsephski.github.io/se_project_spots/)
+
+## Screenshots/GIFs
+
+![Project Sections](images/logo.svg)
