@@ -1,33 +1,15 @@
 .footer {
-  max-width: 1240px;
+  max-width: 1280px;
   margin: 0 auto;
-  padding: 60px 20px;
-  border-top: #e5e5e5 solid 1px;
+  padding: 60px 0;
 }
 
 .footer__copyright {
   font-family: "Poppins", Arial, Helvetica, sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 400;
-  color: #545454;
+  color: #212121b2;
   margin: 0;
   text-align: center;
   line-height: 1.4;
-}
-
-@media (max-width: 1319px) {
-  .footer {
-    padding: 50px 20px;
-  }
-}
-
-@media (max-width: 629px) {
-  .footer {
-    padding: 40px 20px;
-  }
-
-  .footer__copyright {
-    font-size: 12px;
-    line-height: 1.4;
-  }
 }
