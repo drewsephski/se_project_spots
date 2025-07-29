@@ -55,7 +55,7 @@
 @media screen and (min-width: 769px) {
   .profile__column {
     justify-content: space-between;
-    height: 170px; /* Matches profile__image height */
+    height: 170px;
     margin-right: 10px;
     align-items: flex-start;
   }
@@ -78,7 +78,7 @@
   font-size: 32px;
   line-height: 33px;
   font-weight: 500;
-  margin: 0 0 6px; /* Changed from 5px */
+  margin: 0 0 6px;
   text-overflow: ellipsis;
   display: -webkit-box;
   -webkit-line-clamp: 3;
@@ -100,7 +100,7 @@
   font-size: 16px;
   line-height: 17px;
   font-weight: 500;
-  margin: 0 0 15px; /* Keep existing margin */
+  margin: 0 0 15px; 
   text-overflow: ellipsis;
   display: -webkit-box;
   -webkit-line-clamp: 3;
@@ -184,7 +184,7 @@
 }
 
 .profile__edit-text {
-  font-size: 16px; /* Adjust as needed */
-  line-height: 15px; /* Adjust as needed */
+  font-size: 16px;
+  line-height: 15px;
   white-space: nowrap;
 }
